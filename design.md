@@ -1,7 +1,7 @@
 Include details about your SDK design in this file.  
 
 
-Absolutely, I'm happy to detail some key aspects of the design!
+Absolutely, I'm happy to detail some key aspects of the design!  
 
 # Modular Design: 
 The SDK was designed with modularity in mind.  Each resource of the LOTR API (Chapters, Characters, Movies, Quotes) has its own TypeScript class within the SDK.  This makes the code easier to maintain and extend in the future.  It also means developers can import and use only what they need from the SDK, leading to potentially leaner applications.

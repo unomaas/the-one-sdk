@@ -34,4 +34,4 @@ At the risk of not wanting to hit perfection, I'd give it a 8-9.  I'm really pro
 
 
 8 - Anything else we should keep in mind when we evaluate the project?
-I actually had a blast doing this, thank you for the opportunity!  I really enjoy making agnostic tooling and considering every possible use case.  I hope you enjoy reviewing my work as much as I enjoyed making it.  Cheers! 
+I actually had a blast doing this, thank you for the opportunity!  I really enjoy making agnostic tooling and considering every possible use case; which is why I created methods for all API endpoints, and not just the two in the instructions.  I hope you enjoy reviewing my work as much as I enjoyed making it.  Cheers! 
