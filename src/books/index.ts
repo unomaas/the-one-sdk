@@ -1,5 +1,4 @@
 import { Base } from '../base';
-
 import { Book } from './types';
 import { Chapter } from '../chapters/types';
 
