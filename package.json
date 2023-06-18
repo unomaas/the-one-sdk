@@ -1,19 +1,27 @@
 {
-	"name": "@unomaas/lotr-sdk",
+	"name": "@unomaas/the-one-sdk",
 	"version": "1.0.0",
-	"description": "A lightweight SDK for the Lord of the Rings API (https://the-one-api.dev)",
+	"description": "A lightweight SDK demo for the Lord of the Rings API (https://the-one-api.dev)",
 	"main": "dist/index.js",
 	"module": "dist/index.es.js",
 	"unpkg": "dist/index.umd.js",
 	"types": "dist/types.d.ts",
 	"scripts": {
-		"build": "rm -rf dist && microbundle --tsconfig tsconfig.json --no-sourcemap"
+		"build": "rm -rf dist && microbundle --tsconfig tsconfig.json --no-sourcemap",
+		"docs": "npx typedoc"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/hatchways-community/99659d2d3c9f461e87d7a6dd57ac5dbe.git"
 	},
-	"keywords": ["lotr", "lord of the rings", "sdk", "api", "wrapper", "typescript"],
+	"keywords": [
+		"lotr",
+		"lord of the rings",
+		"sdk",
+		"api",
+		"wrapper",
+		"typescript"
+	],
 	"author": "Ryan Maas",
 	"license": "MIT",
 	"exports": {
@@ -38,7 +46,8 @@
 	},
 	"homepage": "https://github.com/hatchways-community/99659d2d3c9f461e87d7a6dd57ac5dbe#readme",
 	"devDependencies": {
-		"microbundle": "^0.15.1"
+		"microbundle": "^0.15.1",
+		"typedoc": "^0.24.8"
 	},
 	"dependencies": {
 		"isomorphic-unfetch": "^4.0.2"
