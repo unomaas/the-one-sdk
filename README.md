@@ -50,6 +50,8 @@ Run the tests via Jest with the following command:
 npm run test
 ```
 
+
+
 ## API Documentation
 Each category in the Lord of the Rings API (books, chapters, characters, movies, and quotes) has its own class in the SDK, each with two to three methods. For more details, you can refer to the specific typescript .types file for each category which provides the data model for the returned data.
 

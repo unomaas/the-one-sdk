@@ -8,8 +8,7 @@
 	"types": "dist/types.d.ts",
 	"scripts": {
 		"build": "rm -rf dist && microbundle --tsconfig tsconfig.json --no-sourcemap",
-		"test": "node --experimental-vm-modules ./node_modules/.bin/jest",
-		"docs": "typescript-documentation --project ./tsconfig.json --entry ./src/index.ts --output ./README.md"
+		"test": "node --experimental-vm-modules ./node_modules/.bin/jest"
 	},
 	"repository": {
 		"type": "git",
