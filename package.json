@@ -8,7 +8,8 @@
 	"types": "dist/types.d.ts",
 	"scripts": {
 		"build": "rm -rf dist && microbundle --tsconfig tsconfig.json --no-sourcemap",
-		"docs": "npx typedoc"
+		"docs": "npx typedoc",
+		"docs-md": "npx typedoc --plugin typedoc-plugin-markdown --theme markdown --out docs"
 	},
 	"repository": {
 		"type": "git",
@@ -47,7 +48,8 @@
 	"homepage": "https://github.com/hatchways-community/99659d2d3c9f461e87d7a6dd57ac5dbe#readme",
 	"devDependencies": {
 		"microbundle": "^0.15.1",
-		"typedoc": "^0.24.8"
+		"typedoc": "^0.24.8",
+		"typedoc-plugin-markdown": "^3.15.3"
 	},
 	"dependencies": {
 		"isomorphic-unfetch": "^4.0.2"
