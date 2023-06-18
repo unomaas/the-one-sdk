@@ -110,7 +110,7 @@ import {
 	Character,
 	Movie,
 	Quote
-} from '@unomaas/the-one-client';
+} from '@unomaas/the-one-sdk';
 ```
 
 
