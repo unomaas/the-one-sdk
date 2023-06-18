@@ -9,7 +9,8 @@
 	"scripts": {
 		"build": "rm -rf dist && microbundle --tsconfig tsconfig.json --no-sourcemap",
 		"docs": "npx typedoc",
-		"docs-md": "npx typedoc --plugin typedoc-plugin-markdown --theme markdown --out docs"
+		"docs:md": "npx typedoc --plugin typedoc-plugin-markdown --theme markdown --out docs",
+		"docs:concat": "concat-md --toc --decrease-title-levels --dir-name-as-title docs > README.md"
 	},
 	"repository": {
 		"type": "git",
@@ -47,7 +48,10 @@
 	},
 	"homepage": "https://github.com/hatchways-community/99659d2d3c9f461e87d7a6dd57ac5dbe#readme",
 	"devDependencies": {
+		"concat-md": "^0.5.1",
 		"microbundle": "^0.15.1",
+		"rimraf": "^5.0.1",
+		"showdown": "^2.1.0",
 		"typedoc": "^0.24.8",
 		"typedoc-plugin-markdown": "^3.15.3"
 	},

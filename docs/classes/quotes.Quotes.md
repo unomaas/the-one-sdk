@@ -40,7 +40,7 @@
 
 #### Defined in
 
-[base.ts:15](https://github.com/hatchways-community/99659d2d3c9f461e87d7a6dd57ac5dbe/blob/49d789f/src/base.ts#L15)
+[base.ts:15](https://github.com/hatchways-community/99659d2d3c9f461e87d7a6dd57ac5dbe/blob/7e7948f/src/base.ts#L15)
 
 ## Methods
 
@@ -69,7 +69,7 @@ console.log(quotes);
 
 #### Defined in
 
-[quotes/index.ts:18](https://github.com/hatchways-community/99659d2d3c9f461e87d7a6dd57ac5dbe/blob/49d789f/src/quotes/index.ts#L18)
+[quotes/index.ts:18](https://github.com/hatchways-community/99659d2d3c9f461e87d7a6dd57ac5dbe/blob/7e7948f/src/quotes/index.ts#L18)
 
 ___
 
@@ -104,7 +104,7 @@ console.log(quote);
 
 #### Defined in
 
-[quotes/index.ts:34](https://github.com/hatchways-community/99659d2d3c9f461e87d7a6dd57ac5dbe/blob/49d789f/src/quotes/index.ts#L34)
+[quotes/index.ts:34](https://github.com/hatchways-community/99659d2d3c9f461e87d7a6dd57ac5dbe/blob/7e7948f/src/quotes/index.ts#L34)
 
 ___
 
@@ -135,4 +135,4 @@ ___
 
 #### Defined in
 
-[base.ts:21](https://github.com/hatchways-community/99659d2d3c9f461e87d7a6dd57ac5dbe/blob/49d789f/src/base.ts#L21)
+[base.ts:21](https://github.com/hatchways-community/99659d2d3c9f461e87d7a6dd57ac5dbe/blob/7e7948f/src/base.ts#L21)

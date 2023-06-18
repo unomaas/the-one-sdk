@@ -41,7 +41,7 @@
 
 #### Defined in
 
-[base.ts:15](https://github.com/hatchways-community/99659d2d3c9f461e87d7a6dd57ac5dbe/blob/49d789f/src/base.ts#L15)
+[base.ts:15](https://github.com/hatchways-community/99659d2d3c9f461e87d7a6dd57ac5dbe/blob/7e7948f/src/base.ts#L15)
 
 ## Methods
 
@@ -70,7 +70,7 @@ console.log(characters);
 
 #### Defined in
 
-[characters/index.ts:19](https://github.com/hatchways-community/99659d2d3c9f461e87d7a6dd57ac5dbe/blob/49d789f/src/characters/index.ts#L19)
+[characters/index.ts:19](https://github.com/hatchways-community/99659d2d3c9f461e87d7a6dd57ac5dbe/blob/7e7948f/src/characters/index.ts#L19)
 
 ___
 
@@ -105,7 +105,7 @@ console.log(character);
 
 #### Defined in
 
-[characters/index.ts:35](https://github.com/hatchways-community/99659d2d3c9f461e87d7a6dd57ac5dbe/blob/49d789f/src/characters/index.ts#L35)
+[characters/index.ts:35](https://github.com/hatchways-community/99659d2d3c9f461e87d7a6dd57ac5dbe/blob/7e7948f/src/characters/index.ts#L35)
 
 ___
 
@@ -140,7 +140,7 @@ console.log(quotes);
 
 #### Defined in
 
-[characters/index.ts:51](https://github.com/hatchways-community/99659d2d3c9f461e87d7a6dd57ac5dbe/blob/49d789f/src/characters/index.ts#L51)
+[characters/index.ts:51](https://github.com/hatchways-community/99659d2d3c9f461e87d7a6dd57ac5dbe/blob/7e7948f/src/characters/index.ts#L51)
 
 ___
 
@@ -171,4 +171,4 @@ ___
 
 #### Defined in
 
-[base.ts:21](https://github.com/hatchways-community/99659d2d3c9f461e87d7a6dd57ac5dbe/blob/49d789f/src/base.ts#L21)
+[base.ts:21](https://github.com/hatchways-community/99659d2d3c9f461e87d7a6dd57ac5dbe/blob/7e7948f/src/base.ts#L21)

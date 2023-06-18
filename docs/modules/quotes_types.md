@@ -26,4 +26,4 @@
 
 #### Defined in
 
-[quotes/types.ts:2](https://github.com/hatchways-community/99659d2d3c9f461e87d7a6dd57ac5dbe/blob/49d789f/src/quotes/types.ts#L2)
+[quotes/types.ts:2](https://github.com/hatchways-community/99659d2d3c9f461e87d7a6dd57ac5dbe/blob/7e7948f/src/quotes/types.ts#L2)
