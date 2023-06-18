@@ -1,8 +1,8 @@
 import { Base } from '../base';
-import { Movie } from './types';
-import { Quote } from '../quotes/types';
+import { Movie } from './movies.types';
+import { Quote } from '../quotes/quotes.types';
 
-const route = `/movie/`;
+const route = `/movie`;
 
 
 export class Movies extends Base {

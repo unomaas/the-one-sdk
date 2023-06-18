@@ -1,6 +1,6 @@
 import { Base } from '../base';
-import { Character } from './types';
-import { Quote } from '../quotes/types';
+import { Character } from './characters.types';
+import { Quote } from '../quotes/quotes.types';
 
 const route = `/character`;
 

@@ -1,9 +1,9 @@
 import { Base } from './base';
-import { Books } from './books';
-import { Chapters } from './chapters';
-import { Characters } from './characters';
-import { Movies } from './movies';
-import { Quotes } from './quotes';
+import { Books } from './books/books.index';
+import { Chapters } from './chapters/chapters.index';
+import { Characters } from './characters/characters.index';
+import { Movies } from './movies/movies.index';
+import { Quotes } from './quotes/quotes.index';
 
 
 export class LotrSDK extends Base {

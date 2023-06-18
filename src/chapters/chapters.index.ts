@@ -1,5 +1,5 @@
 import { Base } from '../base';
-import { Chapter } from './types';
+import { Chapter } from './chapters.types';
 
 const route = `/chapter`;
 

@@ -1,5 +1,5 @@
 import { Base } from '../base';
-import { Quote } from './types';
+import { Quote } from './quotes.types';
 
 const route = `/quote`;
 

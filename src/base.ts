@@ -18,7 +18,7 @@ export abstract class Base {
 	}; // End constructor
 
 
-	protected async invoke<T>(endpoint: string, options?: RequestInit): Promise<T> {
+	public async invoke<T>(endpoint: string, options?: RequestInit): Promise<T> {
 		const url = `${this.baseUrl}${endpoint}`;
 
 		const headers = {
