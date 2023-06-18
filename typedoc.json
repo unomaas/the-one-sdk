@@ -1,9 +1,0 @@
-{
-  "entryPoints": ["src/**/*"],
-  "out": "docs",
-  "exclude": ["**/*.spec.ts"],
-  "includes": "**/*.ts",
-  "theme": "default",
-	"hideBreadcrumbs": true,
-	"hideInPageTOC": true,
-}
