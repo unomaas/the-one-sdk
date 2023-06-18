@@ -2,6 +2,7 @@
 	"name": "@unomaas/the-one-sdk",
 	"version": "1.0.0",
 	"description": "A lightweight SDK demo for the Lord of the Rings API (https://the-one-api.dev)",
+	"access": "public",
 	"main": "dist/index.js",
 	"module": "dist/index.es.js",
 	"unpkg": "dist/index.umd.js",
