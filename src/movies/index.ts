@@ -1,4 +1,4 @@
-import { Base } from 'src/base';
+import { Base } from '../base';
 import { Movie } from './types';
 import { Quote } from '../quotes/types';
 
@@ -15,10 +15,10 @@ export class Movies extends Base {
 	 * @example
 	 * const movies = await sdk.movies.getAllMovies();
 	 * console.log(movies);
-	*/
+	 */
 	public async getAllMovies(): Promise<Movie[]> {
-		const data = await this.invoke<Movie[]>(`${route}`);
-		return data;
+		const data = await this.invoke<{ docs: Movie[] }>(`${route}`);
+		return data.docs;
 	}; // End getAllMovies
 
 
@@ -31,10 +31,10 @@ export class Movies extends Base {
 	 * @example
 	 * const movie = await sdk.movies.getMovieById('5cd95395de30eff6ebccde5b');
 	 * console.log(movie);
-	*/
+	 */
 	public async getMovieById(id: string): Promise<Movie> {
-		const data = await this.invoke<Movie>(`${route}/${id}`);
-		return data;
+		const data = await this.invoke<{ docs: Movie[] }>(`${route}/${id}`);
+		return data.docs[0];
 	}; // End getMovieById
 
 
@@ -47,10 +47,10 @@ export class Movies extends Base {
 	 * @example
 	 * const quotes = await sdk.movies.getMovieQuotesById('5cd95395de30eff6ebccde5b');
 	 * console.log(quotes);
-	*/
+	 */
 	public async getMovieQuotesById(id: string): Promise<Quote[]> {
-		const data = await this.invoke<Quote[]>(`${route}/${id}/quote`);
-		return data;
+		const data = await this.invoke<{ docs: Quote[] }>(`${route}/${id}/quote`);
+		return data.docs;
 	} // End getMovieQuotes
 
 }; // End class Movies

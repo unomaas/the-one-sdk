@@ -1,4 +1,4 @@
-import { Base } from 'src/base';
+import { Base } from '../base';
 import { Quote } from './types';
 
 const route = `/quote`;
@@ -14,10 +14,10 @@ export class Quotes extends Base {
 	 * @example
 	 * const quotes = await sdk.quotes.getAllQuotes();
 	 * console.log(quotes);
-	*/
+	 */
 	public async getAllQuotes(): Promise<Quote[]> {
-		const data = await this.invoke<Quote[]>(`${route}`);
-		return data;
+		const data = await this.invoke<{ docs: Quote[] }>(`${route}`);
+		return data.docs;
 	}; // End getAllQuotes
 
 
@@ -30,10 +30,10 @@ export class Quotes extends Base {
 	 * @example
 	 * const quote = await sdk.quotes.getQuoteById('5cd96e05de30eff6ebcce7e9');
 	 * console.log(quote);
-	*/
+	 */
 	public async getQuoteById(id: string): Promise<Quote> {
-		const data = await this.invoke<Quote>(`${route}/${id}`);
-		return data;
+		const data = await this.invoke<{ docs: Quote[] }>(`${route}/${id}`);
+		return data.docs[0];
 	}; // End getQuoteById
 
 }; // End class Quotes

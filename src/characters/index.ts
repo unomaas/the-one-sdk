@@ -1,4 +1,4 @@
-import { Base } from 'src/base';
+import { Base } from '../base';
 import { Character } from './types';
 import { Quote } from '../quotes/types';
 
@@ -15,10 +15,10 @@ export class Characters extends Base {
 	 * @example
 	 * const characters = await sdk.characters.getAllCharacters();
 	 * console.log(characters);
-	*/
+	 */
 	public async getAllCharacters(): Promise<Character[]> {
-		const data = await this.invoke<Character[]>(`${route}`);
-		return data;
+		const data = await this.invoke<{ docs: Character[] }>(`${route}`);
+		return data.docs;
 	}; // End getAllCharacters
 
 
@@ -31,10 +31,10 @@ export class Characters extends Base {
 	 * @example
 	 * const character = await sdk.characters.getCharacterById('5cd99d4bde30eff6ebccfbbe');
 	 * console.log(character);
-	*/
+	 */
 	public async getCharacterById(id: string): Promise<Character> {
-		const data = await this.invoke<Character>(`${route}/${id}`);
-		return data;
+		const data = await this.invoke<{ docs: Character[] }>(`${route}/${id}`);
+		return data.docs[0];
 	}; // End getCharacterById
 
 
@@ -47,10 +47,10 @@ export class Characters extends Base {
 	 * @example
 	 * const quotes = await sdk.characters.getCharacterQuotesById('5cd99d4bde30eff6ebccfbbe');
 	 * console.log(quotes);
-	*/
+	 */
 	public async getCharacterQuotesById(id: string): Promise<Quote[]> {
-		const data = await this.invoke<Quote[]>(`${route}/${id}/quote`);
-		return data;
+		const data = await this.invoke<{ docs: Quote[] }>(`${route}/${id}/quote`);
+		return data.docs;
 	}; // End getCharacterQuotes
 
 }; // End class Characters

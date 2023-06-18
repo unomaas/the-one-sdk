@@ -6,7 +6,7 @@ import { Movies } from './movies';
 import { Quotes } from './quotes';
 
 
-export class Library extends Base {
+export class LotrSDK extends Base {
 
 	public books: Books;
 	public chapters: Chapters;

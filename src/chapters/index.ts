@@ -1,4 +1,4 @@
-import { Base } from 'src/base';
+import { Base } from '../base';
 import { Chapter } from './types';
 
 const route = `/chapter`;
@@ -16,8 +16,8 @@ export class Chapters extends Base {
 	 * console.log(chapters);
 	*/
 	public async getAllChapters(): Promise<Chapter[]> {
-		const data = await this.invoke<Chapter[]>(`${route}`);
-		return data;
+		const data = await this.invoke<{ docs: Chapter[] }>(`${route}`);
+		return data.docs;
 	}; // End getAllChapters
 
 
@@ -32,8 +32,8 @@ export class Chapters extends Base {
 	 * console.log(chapter);
 	*/
 	public async getChapterById(id: string): Promise<Chapter> {
-		const data = await this.invoke<Chapter>(`${route}/${id}`);
-		return data;
+		const data = await this.invoke<{ docs: Chapter[] }>(`${route}/${id}`);
+		return data.docs[0];
 	}; // End getChapterById
 
 }; // End class Chapters

@@ -16,6 +16,20 @@
 	"keywords": ["lotr", "lord of the rings", "sdk", "api", "wrapper", "typescript"],
 	"author": "Ryan Maas",
 	"license": "MIT",
+	"exports": {
+		".": {
+			"import": "./dist/index.es.js",
+			"require": "./dist/index.umd.js"
+		},
+		"./dist/index.es.js": {
+			"import": "./dist/index.es.js",
+			"require": "./dist/index.umd.js"
+		},
+		"./dist/index.umd.js": {
+			"import": "./dist/index.es.js",
+			"require": "./dist/index.umd.js"
+		}
+	},
 	"files": [
 		"dist"
 	],
