@@ -8,7 +8,6 @@ A lightweight TypeScript SDK for the Lord of the Rings API.
 
 - [Installation](#installation)
 - [File Structure](#file-structure)
-- [Testing](#testing)
 - [API Documentation](#api-documentation)
   - [Books](#books)
   - [Chapters](#chapters)
@@ -16,8 +15,9 @@ A lightweight TypeScript SDK for the Lord of the Rings API.
   - [Movies](#movies)
   - [Quotes](#quotes)
 - [TypeScript Types](#typescript-types)
-- [Contributing](#contributing)
+- [Testing](#testing)
 - [Quick Client Setup](#quick-client-setup)
+- [Contributing](#contributing)
 
 
 
@@ -77,13 +77,6 @@ The relevant file structure for SDK is as follows:
     ├── jest.config.js
     ├── package.json
     └── tsconfig.json
-```
-
-
-## Testing
-With the codebase open, run the tests via Jest with the following command in your terminal:
-```bash
-npm run test
 ```
 
 
@@ -153,8 +146,11 @@ import {
 
 
 
-## Contributing
-Contributions are welcome! Please ensure your changes pass all existing tests before submitting a pull request. Run the tests with `npm run test`.
+## Testing
+With the repo cloned and codebase open, run the tests via Jest with the following command in your terminal:
+```bash
+npm run test
+```
 
 
 
@@ -269,3 +265,8 @@ tsc && node dist/app.js
 ```
 
 You should see many lines of console logs in your terminal.  Cheers! 
+
+
+
+## Contributing
+Contributions are welcome! Please ensure your changes pass all existing tests before submitting a pull request. Run the tests with `npm run test`.
