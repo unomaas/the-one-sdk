@@ -7,6 +7,7 @@ A lightweight TypeScript SDK for the Lord of the Rings API.
 ## Table of Contents
 
 - [Installation](#installation)
+- [File Structure](#file-structure)
 - [Testing](#testing)
 - [API Documentation](#api-documentation)
   - [Books](#books)
@@ -45,8 +46,42 @@ If not provided, the baseUrl will default to https://the-one-api.dev/v2.
 
 
 
+## File Structure
+The relevant file structure for SDK is as follows:
+```
+.
+└── sdk-demo/
+    ├── src/
+    │   ├── books/
+    │   │   ├── books.index.ts
+    │   │   ├── books.test.ts
+    │   │   └── books.types.ts
+    │   ├── chapters/
+    │   │   ├── chapters.index.ts
+    │   │   ├── chapters.test.ts
+    │   │   └── chapters.types.ts
+    │   ├── characters/
+    │   │   ├── characters.index.ts
+    │   │   ├── characters.test.ts
+    │   │   └── characters.types.ts
+    │   ├── movies/
+    │   │   ├── movies.index.ts
+    │   │   ├── movies.test.ts
+    │   │   └── movies.types.ts
+    │   └── quotes/
+    │       ├── quotes.index.ts
+    │       ├── quotes.test.ts
+    │       └── quotes.types.ts
+    ├── base.ts
+    ├── index.ts
+    ├── jest.config.js
+    ├── package.json
+    └── tsconfig.json
+```
+
+
 ## Testing
-Run the tests via Jest with the following command:
+With the codebase open, run the tests via Jest with the following command in your terminal:
 ```bash
 npm run test
 ```
