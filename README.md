@@ -1,4 +1,4 @@
-# Lord of the Rings SDK (@unomaas/the-one-client)
+# Lord of the Rings SDK (@unomaas/the-one-sdk)
 
 A lightweight TypeScript SDK for the Lord of the Rings API.
 
@@ -26,13 +26,13 @@ A lightweight TypeScript SDK for the Lord of the Rings API.
 To install the SDK, use npm:
 
 ```bash
-npm install @unomaas/the-one-client
+npm install @unomaas/the-one-sdk
 ```
 
 After installing, import the SDK in your TypeScript/JavaScript files:
 
 ```typescript
-import { LotrSDK } from '@unomaas/the-one-client';
+import { LotrSDK } from '@unomaas/the-one-sdk';
 ```
 
 And instantiate it:
@@ -185,7 +185,7 @@ Copy the below code into a file named `tsconfig.json` at root level:
 
 Install the SDK:
 ```bash
-npm install @unomaas/the-one-client
+npm install @unomaas/the-one-sdk
 ```
 
 Copy the below code into a file named `src/app.ts`, which is setup to test and console.log all the endpoints:
@@ -200,7 +200,7 @@ import {
 } from '@unomaas/the-one-sdk';
 
 const client = new LotrSDK({
-	apiKey: 'pFD__LgdJUNNgjhSZn9A',
+	apiKey: 'your-api-key', // (register for one at https://the-one-api.dev/sign-up),
 	baseUrl: 'https://the-one-api.dev/v2'
 }); // End client
 
